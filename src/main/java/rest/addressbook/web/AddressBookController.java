@@ -111,7 +111,7 @@ public class AddressBookController {
 				return Response.noContent().build();
 			}
 		}
-		return Response.status(Status.NOT_FOUND).build();
+		return Response.status(Status.BAD_REQUEST).build();
 	}
 
 }
